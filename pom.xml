@@ -23,7 +23,8 @@
         <!--        <module>spring-boot-21-application</module>-->
         <!--        <module>spring-boot-22-application</module>-->
         <!--        <module>spring-boot-application-crazy</module>-->
-        <module>spring-boot-23-app</module>
+        <!--        <module>spring-boot-23-app</module>-->
+        <module>imooc-course</module>
     </modules>
 
     <repositories>
