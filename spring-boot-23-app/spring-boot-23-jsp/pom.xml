@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>web</artifactId>
+        <artifactId>spring-boot-23-app</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>190921</version>
     </parent>
-    <artifactId>web-template-jsp</artifactId>
+    <artifactId>spring-boot-23-jsp</artifactId>
     <packaging>war</packaging>
     <dependencies>
         <dependency>

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 @SpringBootApplication
-public class SpringBoot21ApplicationWebTemplateJsp extends SpringBootServletInitializer {
+public class SpringBoot23Jsp extends SpringBootServletInitializer {
 
     @GetMapping("/index")
     public String index() {
@@ -18,10 +18,10 @@ public class SpringBoot21ApplicationWebTemplateJsp extends SpringBootServletInit
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(SpringBoot21ApplicationWebTemplateJsp.class);
+        return builder.sources(SpringBoot23Jsp.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot21ApplicationWebTemplateJsp.class, args);
+        SpringApplication.run(SpringBoot23Jsp.class, args);
     }
 }

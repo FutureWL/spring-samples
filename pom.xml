@@ -19,10 +19,11 @@
     </properties>
 
     <modules>
-        <module>spring-boot-15-application</module>
-        <module>spring-boot-21-application</module>
-        <module>spring-boot-22-application</module>
-        <module>spring-boot-application-crazy</module>
+        <!--        <module>spring-boot-15-application</module>-->
+        <!--        <module>spring-boot-21-application</module>-->
+        <!--        <module>spring-boot-22-application</module>-->
+        <!--        <module>spring-boot-application-crazy</module>-->
+        <module>spring-boot-23-app</module>
     </modules>
 
     <repositories>
