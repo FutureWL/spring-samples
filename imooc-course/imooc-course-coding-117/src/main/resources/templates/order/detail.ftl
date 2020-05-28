@@ -1,13 +1,9 @@
 <html>
 <#include "../common/header.ftl">
-
 <body>
 <div id="wrapper" class="toggled">
-
     <#--边栏sidebar-->
     <#include "../common/nav.ftl">
-
-
     <#--主要内容content-->
     <div id="page-content-wrapper">
         <div class="container">
@@ -28,7 +24,6 @@
                         </tbody>
                     </table>
                 </div>
-
             <#--订单详情表数据-->
                 <div class="col-md-12 column">
                     <table class="table table-bordered">
@@ -54,7 +49,6 @@
                         </tbody>
                     </table>
                 </div>
-
             <#--操作-->
                 <div class="col-md-12 column">
                 <#if orderDTO.getOrderStatusEnum().message == "新订单">
@@ -66,6 +60,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
