@@ -20,9 +20,28 @@ import javax.persistence.EntityManager;
 
 /**
  *
+ * Auditing 审核，审计
+ *
+ * @ CreatedBy 创建的用户
+ * @ CreatedDate 创建的时间
+ * @ LastModifiedBy 修改实体的用户
+ * @ LastModifiedDate 最后一次修改时间
+ * @ MappedSuperclass
  *
  *
+ * Version
+ * MvcWeb
+ * @ EnableJpaRepositories 详解
+ * 默认日志简单介绍
+ * Spring Boot JPA 版本 问题
  *
+ *
+ * 默认数据源的讲解
+ * AliDruidDataSource 的配置
+ * 事务的处理及其讲解
+ * 如何配置多数据源
+ * Naming 命名策略详解及其实践
+ * 完整的传统 XML 的配置方法
  *
  *
  *
