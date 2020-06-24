@@ -1,7 +1,7 @@
-package io.github.futurewl.data.jdbc.controller;
+package io.github.futurewl.data.jpa.master.controller;
 
-import io.github.futurewl.data.jdbc.entity.Book;
-import io.github.futurewl.data.jdbc.service.BookService;
+import io.github.futurewl.data.jpa.master.entity.Book;
+import io.github.futurewl.data.jpa.master.service.BookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

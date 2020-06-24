@@ -10,3 +10,5 @@ spring:
       jdbc-url: jdbc:mysql://192.168.0.23:3306/db_sbs_slave?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
       username: db_sbs_slave
       password: db_sbs_slave
+  jpa:
+    show-sql: true

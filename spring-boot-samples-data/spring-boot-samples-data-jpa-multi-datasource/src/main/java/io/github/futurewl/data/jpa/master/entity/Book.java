@@ -1,5 +1,10 @@
-package io.github.futurewl.data.jdbc.entity;
+package io.github.futurewl.data.jpa.master.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "t_book")
 public class Book {
 
     private Integer id;

@@ -1,6 +1,6 @@
-package io.github.futurewl.data.jdbc.dao;
+package io.github.futurewl.data.jpa.master.dao;
 
-import io.github.futurewl.data.jdbc.entity.Book;
+import io.github.futurewl.data.jpa.master.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
