@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.data.jdbc.entity;
 
 public class Book {
 

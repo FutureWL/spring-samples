@@ -1,6 +1,6 @@
-package io.github.futurewl;
+package io.github.futurewl.data.jdbc.dao;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import io.github.futurewl.data.jdbc.entity.Book;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -10,17 +10,22 @@ import java.util.List;
 @Repository
 public class BookDao {
 
-    @Autowired
-    JdbcTemplate jdbcTemplate;
+    private final JdbcTemplate jdbcTemplate;
+
+    public BookDao(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
 
     public int addBook(Book book) {
         return jdbcTemplate.update(
-                "insert into book(name,author) values (?,?)", book.getName(), book.getAuthor());
+                "insert into book(name,author) values (?,?)",
+                book.getName(), book.getAuthor());
     }
 
     public int updateBook(Book book) {
         return jdbcTemplate.update(
-                "update  book set name=?,author=? where id=?", book.getName(), book.getAuthor(), book.getId());
+                "update  book set name=?,author=? where id=?",
+                book.getName(), book.getAuthor(), book.getId());
     }
 
     public int deleteBookById(Integer id) {
@@ -30,11 +35,13 @@ public class BookDao {
 
     public Book getBookById(Integer id) {
         return jdbcTemplate.queryForObject(
-                "select * from book where id=?", new BeanPropertyRowMapper<>(Book.class), id);
+                "select * from book where id=?",
+                new BeanPropertyRowMapper<>(Book.class), id);
     }
 
     public List<Book> getAllBooks() {
         return jdbcTemplate.query(
-                "select * from book", new BeanPropertyRowMapper<>(Book.class));
+                "select * from book",
+                new BeanPropertyRowMapper<>(Book.class));
     }
 }

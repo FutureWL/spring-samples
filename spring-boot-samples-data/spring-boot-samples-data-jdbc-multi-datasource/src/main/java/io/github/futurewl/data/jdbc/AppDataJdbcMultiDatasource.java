@@ -1,11 +1,11 @@
-package io.github.futurewl;
+package io.github.futurewl.data.jdbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootApplicationDataJdbc {
+public class AppDataJdbcMultiDatasource {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplicationDataJdbc.class, args);
+        SpringApplication.run(AppDataJdbcMultiDatasource.class, args);
     }
 }

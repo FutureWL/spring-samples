@@ -1,6 +1,7 @@
-package io.github.futurewl;
+package io.github.futurewl.data.jdbc.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import io.github.futurewl.data.jdbc.entity.Book;
+import io.github.futurewl.data.jdbc.service.BookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,23 +10,18 @@ import java.util.List;
 @RestController
 public class BookController {
 
-    @Autowired
-    BookService bookService;
+    private final BookService bookService;
+
+    public BookController(BookService bookService) {
+        this.bookService = bookService;
+    }
 
     @GetMapping("/bookOps")
     public void bookOps() {
-
-
         Book book1 = new Book();
         book1.setName("西厢记");
         book1.setAuthor("王实甫");
-
-
-
         int i = bookService.addBook(book1);
-
-
-
         System.out.println("addBook>>>" + i);
         Book book2 = new Book();
         book2.setId(1);
@@ -39,5 +35,15 @@ public class BookController {
         System.out.println("deleteBookById>>>" + delete);
         List<Book> allBooks = bookService.getAllBooks();
         System.out.println("getAllBooks>>" + allBooks);
+    }
+
+    @GetMapping("getBook")
+    public void getBook(Integer id) {
+        bookService.getBookById(id);
+    }
+
+    @GetMapping("getBook2")
+    public void getBook2(Integer id) {
+        bookService.getBookById2(id);
     }
 }

@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    master:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.0.23:3306/db_sbs_master?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: db_sbs_master
+      password: db_sbs_master
+    slave:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.0.23:3306/db_sbs_slave?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: db_sbs_slave
+      password: db_sbs_slave
