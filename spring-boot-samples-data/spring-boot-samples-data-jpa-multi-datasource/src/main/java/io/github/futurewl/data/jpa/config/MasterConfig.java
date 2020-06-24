@@ -1,5 +1,6 @@
 package io.github.futurewl.data.jpa.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings;
@@ -22,48 +23,45 @@ import java.util.Objects;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-        entityManagerFactoryRef = "entityManagerFactoryPrimary",
-        transactionManagerRef = "transactionManagerPrimary",
+        entityManagerFactoryRef = "entityManagerFactoryMaster",
+        transactionManagerRef = "transactionManagerMaster",
         basePackages = {"io.github.futurewl.data.jpa.master.repository"})
 public class MasterConfig {
 
-    private final DataSource masterDataSource;
-    private final JpaProperties jpaProperties;
-    private final HibernateProperties hibernateProperties;
+    @Autowired
+    @Qualifier("masterDataSource")
+    private DataSource masterDataSource;
 
-    public MasterConfig(
-            JpaProperties jpaProperties,
-            HibernateProperties hibernateProperties,
-            @Qualifier("masterDataSource") DataSource masterDataSource) {
-        this.jpaProperties = jpaProperties;
-        this.masterDataSource = masterDataSource;
-        this.hibernateProperties = hibernateProperties;
-    }
+    @Autowired
+    private JpaProperties jpaProperties;
+
+    @Autowired
+    private HibernateProperties hibernateProperties;
 
     private Map<String, Object> getVendorProperties() {
         return hibernateProperties.determineHibernateProperties(jpaProperties.getProperties(), new HibernateSettings());
     }
 
     @Primary
-    @Bean(name = "entityManagerPrimary")
+    @Bean(name = "entityManagerMaster")
     public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
-        return Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()).createEntityManager();
+        return Objects.requireNonNull(entityManagerFactoryMaster(builder).getObject()).createEntityManager();
     }
 
     @Primary
-    @Bean(name = "entityManagerFactoryPrimary")
-    public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary(EntityManagerFactoryBuilder builder) {
+    @Bean(name = "entityManagerFactoryMaster")
+    public LocalContainerEntityManagerFactoryBean entityManagerFactoryMaster(EntityManagerFactoryBuilder builder) {
         return builder
                 .dataSource(masterDataSource)
                 .packages("io.github.futurewl.data.jpa.master.entity") //设置实体类所在位置
-                .persistenceUnit("primaryPersistenceUnit")
+                .persistenceUnit("masterPersistenceUnit")
                 .properties(getVendorProperties())
                 .build();
     }
 
     @Primary
-    @Bean(name = "transactionManagerPrimary")
-    public PlatformTransactionManager transactionManagerPrimary(EntityManagerFactoryBuilder builder) {
-        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()));
+    @Bean(name = "transactionManagerMaster")
+    public PlatformTransactionManager transactionManagerMaster(EntityManagerFactoryBuilder builder) {
+        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactoryMaster(builder).getObject()));
     }
 }

@@ -2,13 +2,15 @@ spring:
   datasource:
     master:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://192.168.0.23:3306/db_sbs_master?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
-      username: db_sbs_master
-      password: db_sbs_master
+      jdbc-url: jdbc:mysql://192.168.0.23:3306/db_sbs_jdbc_m?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: db_sbs_jdbc_m
+      password: db_sbs_jdbc_m
     slave:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://192.168.0.23:3306/db_sbs_slave?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
-      username: db_sbs_slave
-      password: db_sbs_slave
+      jdbc-url: jdbc:mysql://192.168.0.23:3306/db_sbs_jdbc_s?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: db_sbs_jdbc_s
+      password: db_sbs_jdbc_s
   jpa:
     show-sql: true
+    hibernate:
+      ddl-auto: update
