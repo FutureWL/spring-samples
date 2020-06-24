@@ -1,4 +1,4 @@
-package io.github.futurewl.aop;
+package io.github.futurewl.base.aop;
 
 public interface MerService {
 

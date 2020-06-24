@@ -1,4 +1,4 @@
-package io.github.futurewl.aop;
+package io.github.futurewl.base.aop;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;

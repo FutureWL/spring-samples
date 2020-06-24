@@ -1,4 +1,4 @@
-package io.github.futurewl.controller;
+package io.github.futurewl.base.controller;
 
 import io.github.futurewl.BookApp;
 import io.github.futurewl.WebMvcConfig;

@@ -1,4 +1,4 @@
-package io.github.futurewl.aop;
+package io.github.futurewl.base.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LogAspect {
 
-    @Pointcut("execution(* io.github.futurewl.demo1.service.*.*(..))")
+    @Pointcut("execution(* io.github.futurewl.base.service.*.*(..))")
     public void pc1() {
     }
 

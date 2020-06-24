@@ -1,4 +1,4 @@
-package io.github.futurewl.controller;
+package io.github.futurewl.base.controller;
 
 import org.apache.shiro.authz.AuthorizationException;
 import org.springframework.web.bind.annotation.ControllerAdvice;

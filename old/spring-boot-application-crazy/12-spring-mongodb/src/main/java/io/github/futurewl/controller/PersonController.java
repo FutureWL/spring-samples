@@ -1,4 +1,4 @@
-package io.github.futurewl.controller;
+package io.github.futurewl.base.controller;
 
 import io.github.futurewl.base.entity.Person;
 import io.github.futurewl.demo1.service.PersonService;

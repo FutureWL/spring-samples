@@ -1,11 +1,11 @@
-package io.github.futurewl;
+package io.github.futurewl.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootApplicationActuatorAdminClient {
+public class AppBaseActuatorAdminClient {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplicationActuatorAdminClient.class, args);
+        SpringApplication.run(AppBaseActuatorAdminClient.class, args);
     }
 }

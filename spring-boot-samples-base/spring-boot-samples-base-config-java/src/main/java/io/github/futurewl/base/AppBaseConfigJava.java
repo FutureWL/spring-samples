@@ -1,23 +1,19 @@
 package io.github.futurewl.base;
 
-import io.github.futurewl.base.bean.User;
+import io.github.futurewl.base.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("classpath:application-context.xml")
-public class AppConfigXml implements CommandLineRunner {
+public class AppBaseConfigJava implements CommandLineRunner {
 
-    private final User user;
-
-    public AppConfigXml(User user) {
-        this.user = user;
-    }
+    @Autowired
+    private User user;
 
     public static void main(String[] args) {
-        SpringApplication.run(AppConfigXml.class, args);
+        SpringApplication.run(AppBaseConfigJava.class, args);
     }
 
     @Override

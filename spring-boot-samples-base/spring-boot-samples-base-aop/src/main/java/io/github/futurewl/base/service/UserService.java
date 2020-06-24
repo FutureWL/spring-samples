@@ -1,4 +1,4 @@
-package io.github.futurewl.service;
+package io.github.futurewl.base.service;
 
 import org.springframework.stereotype.Service;
 

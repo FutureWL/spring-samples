@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableAdminServer
 @SpringBootApplication
-public class AppActuatorAdmin {
+public class AppBaseActuatorAdmin {
     public static void main(String[] args) {
-        SpringApplication.run(AppActuatorAdmin.class, args);
+        SpringApplication.run(AppBaseActuatorAdmin.class, args);
     }
 }

@@ -1,15 +1,17 @@
-package io.github.futurewl.controller;
+package io.github.futurewl.base.controller;
 
-import io.github.futurewl.demo1.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import io.github.futurewl.base.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
 
-    @Autowired
-    UserService userService;
+    private final UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("/getUserById")
     public String getUserById(Integer id) {

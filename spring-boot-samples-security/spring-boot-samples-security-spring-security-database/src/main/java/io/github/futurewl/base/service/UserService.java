@@ -1,4 +1,4 @@
-package io.github.futurewl.service;
+package io.github.futurewl.base.service;
 
 import io.github.futurewl.base.entity.User;
 import io.github.futurewl.demo1.repository.RoleRepository;
