@@ -21,5 +21,6 @@
         <module>spring-boot-samples-data-mybatis</module>
         <module>spring-boot-samples-data-mybatis-plus</module>
         <module>spring-boot-samples-data-rest</module>
+        <module>spring-boot-samples-data-mybatis-multi-datasource</module>
     </modules>
 </project>
