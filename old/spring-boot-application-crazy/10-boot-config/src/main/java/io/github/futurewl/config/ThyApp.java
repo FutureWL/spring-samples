@@ -1,4 +1,4 @@
-package io.github.futurewl.config;
+package io.github.futurewl.base.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

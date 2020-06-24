@@ -1,6 +1,6 @@
 package io.github.futurewl.dao;
 
-import io.github.futurewl.entity.SaleItem;
+import io.github.futurewl.base.entity.SaleItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

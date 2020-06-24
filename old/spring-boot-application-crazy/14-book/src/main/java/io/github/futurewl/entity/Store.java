@@ -1,4 +1,4 @@
-package io.github.futurewl.entity;
+package io.github.futurewl.base.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package io.github.futurewl.config;
+package io.github.futurewl.base.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

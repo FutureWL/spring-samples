@@ -1,6 +1,6 @@
 package io.github.futurewl.demo1.repository;
 
-import io.github.futurewl.entity.Person;
+import io.github.futurewl.base.entity.Person;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

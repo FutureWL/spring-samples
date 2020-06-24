@@ -1,4 +1,4 @@
-package io.github.futurewl.entity;
+package io.github.futurewl.base.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;

@@ -1,7 +1,7 @@
 package io.github.futurewl.demo1.service;
 
 import io.github.futurewl.dao.BookDao;
-import io.github.futurewl.entity.Book;
+import io.github.futurewl.base.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;

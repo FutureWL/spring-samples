@@ -1,6 +1,6 @@
 package io.github.futurewl.dao;
 
-import io.github.futurewl.entity.BookStock;
+import io.github.futurewl.base.entity.BookStock;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

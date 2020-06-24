@@ -1,6 +1,6 @@
 package io.github.futurewl.dao;
 
-import io.github.futurewl.entity.User;
+import io.github.futurewl.base.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserDao extends JpaRepository<User, Integer> {

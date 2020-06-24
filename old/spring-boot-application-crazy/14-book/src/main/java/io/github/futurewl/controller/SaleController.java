@@ -1,8 +1,8 @@
 package io.github.futurewl.controller;
 
 import io.github.futurewl.BookApp;
-import io.github.futurewl.entity.Sale;
-import io.github.futurewl.entity.SaleItem;
+import io.github.futurewl.base.entity.Sale;
+import io.github.futurewl.base.entity.SaleItem;
 import io.github.futurewl.demo1.service.SaleService;
 import io.github.futurewl.util.JsonUtil;
 import org.springframework.beans.factory.annotation.Autowired;

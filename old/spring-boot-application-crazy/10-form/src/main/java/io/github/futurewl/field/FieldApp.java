@@ -1,6 +1,6 @@
 package io.github.futurewl.field;
 
-import io.github.futurewl.config.User;
+import io.github.futurewl.base.config.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;

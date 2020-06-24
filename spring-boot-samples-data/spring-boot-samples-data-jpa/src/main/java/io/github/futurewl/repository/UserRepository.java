@@ -1,6 +1,6 @@
 package io.github.futurewl.repository;
 
-import io.github.futurewl.entity.User;
+import io.github.futurewl.base.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;

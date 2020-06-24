@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-samples-actuator</artifactId>
+    <artifactId>spring-boot-samples-base-actuator</artifactId>
 
     <dependencies>
         <dependency>

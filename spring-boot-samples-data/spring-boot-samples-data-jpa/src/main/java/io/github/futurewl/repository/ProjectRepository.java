@@ -1,6 +1,6 @@
 package io.github.futurewl.repository;
 
-import io.github.futurewl.entity.Project;
+import io.github.futurewl.base.entity.Project;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

@@ -2,8 +2,8 @@ package io.github.futurewl.demo1.service;
 
 import io.github.futurewl.dao.BookDao;
 import io.github.futurewl.dao.BookStockDao;
-import io.github.futurewl.entity.Book;
-import io.github.futurewl.entity.BookStock;
+import io.github.futurewl.base.entity.Book;
+import io.github.futurewl.base.entity.BookStock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

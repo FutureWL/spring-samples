@@ -1,6 +1,6 @@
 package io.github.futurewl.service;
 
-import io.github.futurewl.entity.User;
+import io.github.futurewl.base.entity.User;
 import io.github.futurewl.demo1.repository.RoleRepository;
 import io.github.futurewl.demo1.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

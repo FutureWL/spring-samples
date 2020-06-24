@@ -4,7 +4,7 @@ import com.mongodb.MongoException;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
-import io.github.futurewl.entity.Person;
+import io.github.futurewl.base.entity.Person;
 import io.github.futurewl.demo1.repository.PersonRepCustom;
 import org.bson.Document;
 import org.bson.types.ObjectId;

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-samples-bean-life-cycle</artifactId>
+    <artifactId>spring-boot-samples-base-bean-life-cycle</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
