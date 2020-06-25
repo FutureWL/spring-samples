@@ -3,4 +3,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://test:123456@192.168.0.23:27017/crazyit
+      uri: mongodb://192.168.0.23:27017/db_sbs_mongodb

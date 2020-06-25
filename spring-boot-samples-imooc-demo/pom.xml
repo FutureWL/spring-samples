@@ -9,17 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-samples-web-json</artifactId>
+    <artifactId>spring-boot-samples-imooc-demo</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-    </dependencies>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-boot-samples-imooc-demo-coding-96</module>
+        <module>spring-boot-samples-imooc-demo-coding-117</module>
+        <module>spring-boot-samples-imooc-demo-coding-149</module>
+    </modules>
 </project>

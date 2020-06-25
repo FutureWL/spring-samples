@@ -6,8 +6,7 @@ import org.springframework.data.mongodb.repository.Query;
 
 import java.util.List;
 
-public interface PersonRep extends MongoRepository<Person, String>,
-        PersonRepCustom {
+public interface PersonRep extends MongoRepository<Person, String>, PersonRepCustom {
 
     List<Person> name(String name);
 

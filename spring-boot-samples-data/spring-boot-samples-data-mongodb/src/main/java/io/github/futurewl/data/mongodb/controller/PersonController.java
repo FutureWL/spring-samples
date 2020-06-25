@@ -1,8 +1,7 @@
 package io.github.futurewl.data.mongodb.controller;
 
-import io.github.futurewl.data.mongodb.entity.Person;
 import io.github.futurewl.data.mongodb.demo1.service.PersonService;
-import org.springframework.beans.factory.annotation.Autowired;
+import io.github.futurewl.data.mongodb.entity.Person;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,8 +12,11 @@ import java.util.List;
 @RestController
 public class PersonController {
 
-    @Autowired
-    private PersonService personService;
+    private final PersonService personService;
+
+    public PersonController(PersonService personService) {
+        this.personService = personService;
+    }
 
     @RequestMapping(value = "/persons", method = RequestMethod.GET)
     public List<Person> getPersons() {
@@ -23,35 +25,29 @@ public class PersonController {
 
     @RequestMapping(value = "/query", method = RequestMethod.GET)
     public List<Person> myQuery() {
-        List<Person> persons = personService.myQuery();
-        return persons;
+        return personService.myQuery();
     }
 
     @RequestMapping(value = "/name/{name}", method = RequestMethod.GET)
     public List<Person> findByName(@PathVariable String name) {
-        List<Person> persons = personService.findByName(name);
-        return persons;
+        return personService.findByName(name);
     }
 
     @RequestMapping(value = "/ageless/{age}", method = RequestMethod.GET)
     public List<Person> findByAgeLessThan(@PathVariable Integer age) {
-        List<Person> persons = personService.findByAgeLessThan(age);
-        return persons;
+        return personService.findByAgeLessThan(age);
     }
 
     @RequestMapping(value = "/nameage/{name}/{age}", method = RequestMethod.GET)
     public List<Person> findByNameAndAge(@PathVariable String name, @PathVariable Integer age) {
-        List<Person> persons = personService.findByNameAndAge(name, age);
-        return persons;
+        return personService.findByNameAndAge(name, age);
     }
 
     @RequestMapping(value = "/namewf/{name}", method = RequestMethod.GET)
     public List<Person> findByNameWithField(@PathVariable String name) {
-        List<Person> persons = personService.findByNameWithField(name);
-        return persons;
+        return personService.findByNameWithField(name);
     }
-
-
+    
     @RequestMapping(value = "/save/{name}", method = RequestMethod.GET)
     public String save(@PathVariable String name) {
         personService.save(name);

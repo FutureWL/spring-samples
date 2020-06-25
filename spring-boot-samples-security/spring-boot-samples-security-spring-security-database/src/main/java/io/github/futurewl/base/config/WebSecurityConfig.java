@@ -1,6 +1,6 @@
 package io.github.futurewl.base.config;
 
-import io.github.futurewl.data.mongodb.demo1.service.UserService;
+import io.github.futurewl.base.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
