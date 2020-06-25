@@ -1,7 +1,7 @@
-package io.github.futurewl.data.mongodb.demo1.repository.impl;
+package io.github.futurewl.data.mongodb.repository.impl;
 
 import io.github.futurewl.base.entity.Person;
-import io.github.futurewl.data.mongodb.demo1.repository.PersonRepositoryCustom;
+import io.github.futurewl.data.mongodb.repository.PersonRepositoryCustom;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

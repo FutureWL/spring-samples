@@ -1,6 +1,6 @@
 package io.github.futurewl.data.mongodb.controller;
 
-import io.github.futurewl.data.mongodb.demo1.service.PersonService;
+import io.github.futurewl.data.mongodb.service.PersonService;
 import io.github.futurewl.data.mongodb.entity.Person;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -47,7 +47,7 @@ public class PersonController {
     public List<Person> findByNameWithField(@PathVariable String name) {
         return personService.findByNameWithField(name);
     }
-    
+
     @RequestMapping(value = "/save/{name}", method = RequestMethod.GET)
     public String save(@PathVariable String name) {
         personService.save(name);

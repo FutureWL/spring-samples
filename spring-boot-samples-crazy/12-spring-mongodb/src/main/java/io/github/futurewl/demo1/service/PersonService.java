@@ -1,7 +1,7 @@
-package io.github.futurewl.data.mongodb.demo1.service;
+package io.github.futurewl.data.mongodb.service;
 
 import io.github.futurewl.base.entity.Person;
-import io.github.futurewl.data.mongodb.demo1.repository.PersonRep;
+import io.github.futurewl.data.mongodb.repository.PersonRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

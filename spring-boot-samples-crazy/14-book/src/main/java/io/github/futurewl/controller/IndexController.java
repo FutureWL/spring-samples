@@ -1,7 +1,7 @@
 package io.github.futurewl.security.controller;
 
-import io.github.futurewl.data.mongodb.demo1.service.BookService;
-import io.github.futurewl.data.mongodb.demo1.service.BookStockService;
+import io.github.futurewl.data.mongodb.service.BookService;
+import io.github.futurewl.data.mongodb.service.BookStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

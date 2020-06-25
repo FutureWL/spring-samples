@@ -1,11 +1,11 @@
-package io.github.futurewl.data.mongodb.demo1.repository.impl;
+package io.github.futurewl.data.mongodb.repository.impl;
 
 import com.mongodb.MongoException;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import io.github.futurewl.base.entity.Person;
-import io.github.futurewl.data.mongodb.demo1.repository.PersonRepCustom;
+import io.github.futurewl.data.mongodb.repository.PersonRepCustom;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;

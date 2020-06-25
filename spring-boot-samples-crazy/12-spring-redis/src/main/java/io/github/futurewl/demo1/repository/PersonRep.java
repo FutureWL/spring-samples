@@ -1,4 +1,4 @@
-package io.github.futurewl.data.mongodb.demo1.repository;
+package io.github.futurewl.data.mongodb.repository;
 
 import io.github.futurewl.base.entity.Person;
 import org.springframework.data.repository.CrudRepository;

@@ -1,4 +1,4 @@
-package io.github.futurewl.data.mongodb.demo1.service;
+package io.github.futurewl.data.mongodb.service;
 
 import io.github.futurewl.dao.UserDao;
 import io.github.futurewl.base.entity.User;

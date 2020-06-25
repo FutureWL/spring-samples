@@ -1,0 +1,18 @@
+package io.github.futurewl.crazy;
+
+import io.github.futurewl.base.entity.Person;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * 在main方法中使用RestTemplate
+ *
+ * @author 杨恩雄
+ */
+public class AppCrazy02RestClient {
+
+    public static void main(String[] args) {
+        RestTemplate tpl = new RestTemplate();
+        Person p = tpl.getForObject("http://localhost:8080/person/angus", Person.class);
+        System.out.println(p.getName() + "---" + p.getAge());
+    }
+}

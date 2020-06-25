@@ -3,7 +3,7 @@ package io.github.futurewl.security.controller;
 import io.github.futurewl.BookApp;
 import io.github.futurewl.base.entity.Store;
 import io.github.futurewl.base.entity.StoreItem;
-import io.github.futurewl.data.mongodb.demo1.service.StoreService;
+import io.github.futurewl.data.mongodb.service.StoreService;
 import io.github.futurewl.util.JsonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
