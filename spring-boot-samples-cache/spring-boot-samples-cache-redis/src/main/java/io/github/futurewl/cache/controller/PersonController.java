@@ -1,6 +1,6 @@
 package io.github.futurewl.cache.controller;
 
-import io.github.futurewl.cache.demo1.service.PersonService;
+import io.github.futurewl.cache.service.PersonService;
 import io.github.futurewl.cache.entity.Person;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

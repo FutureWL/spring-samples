@@ -1,7 +1,7 @@
-package io.github.futurewl.cache.demo1.service;
+package io.github.futurewl.cache.service;
 
-import io.github.futurewl.cache.demo1.repository.PersonRep;
 import io.github.futurewl.cache.entity.Person;
+import io.github.futurewl.cache.repository.PersonRep;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

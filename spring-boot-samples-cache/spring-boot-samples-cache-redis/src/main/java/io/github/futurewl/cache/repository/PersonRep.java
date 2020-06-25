@@ -1,4 +1,4 @@
-package io.github.futurewl.cache.demo1.repository;
+package io.github.futurewl.cache.repository;
 
 import io.github.futurewl.cache.entity.Person;
 import org.springframework.data.repository.CrudRepository;

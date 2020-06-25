@@ -1,6 +1,6 @@
-package io.github.futurewl.cache.demo1.repository.impl;
+package io.github.futurewl.cache.repository.impl;
 
-import io.github.futurewl.cache.demo1.repository.PersonRepCustom;
+import io.github.futurewl.cache.repository.PersonRepCustom;
 import io.github.futurewl.cache.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.StringRedisConnection;
@@ -17,6 +17,7 @@ public class PersonRepImpl implements PersonRepCustom {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
+    @Override
     public List<Person> myQuery() {
         return stringRedisTemplate.execute((RedisCallback<List<Person>>) connection -> {
             List<Person> result = new ArrayList<>();
