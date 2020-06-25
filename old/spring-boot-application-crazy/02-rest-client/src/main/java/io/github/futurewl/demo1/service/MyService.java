@@ -1,4 +1,4 @@
-package io.github.futurewl.demo1.service;
+package io.github.futurewl.data.mongodb.demo1.service;
 
 import io.github.futurewl.base.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;

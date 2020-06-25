@@ -1,7 +1,7 @@
-package io.github.futurewl.demo1.repository.impl;
+package io.github.futurewl.data.mongodb.demo1.repository.impl;
 
 import io.github.futurewl.base.entity.Person;
-import io.github.futurewl.demo1.repository.PersonRepCustom;
+import io.github.futurewl.data.mongodb.demo1.repository.PersonRepCustom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;

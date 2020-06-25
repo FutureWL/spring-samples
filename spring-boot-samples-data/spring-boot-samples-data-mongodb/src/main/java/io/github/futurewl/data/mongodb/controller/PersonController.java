@@ -1,6 +1,6 @@
-package io.github.futurewl.base.controller;
+package io.github.futurewl.data.mongodb.controller;
 
-import io.github.futurewl.base.entity.Person;
+import io.github.futurewl.data.mongodb.entity.Person;
 import io.github.futurewl.data.mongodb.demo1.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

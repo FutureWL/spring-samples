@@ -1,7 +1,7 @@
 package io.github.futurewl.base.controller;
 
 import io.github.futurewl.base.entity.User;
-import io.github.futurewl.demo1.service.UserService;
+import io.github.futurewl.data.mongodb.demo1.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
