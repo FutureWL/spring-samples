@@ -1,4 +1,4 @@
-package io.github.futurewl.base.controller;
+package io.github.futurewl.security.controller;
 
 import io.github.futurewl.BookApp;
 import io.github.futurewl.base.entity.Store;

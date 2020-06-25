@@ -1,4 +1,4 @@
-package io.github.futurewl.base.controller;
+package io.github.futurewl.security.controller;
 
 import io.github.futurewl.data.mongodb.demo1.service.BookService;
 import io.github.futurewl.data.mongodb.demo1.service.BookStockService;

@@ -1,4 +1,4 @@
-package io.github.futurewl.base.config;
+package io.github.futurewl.security.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

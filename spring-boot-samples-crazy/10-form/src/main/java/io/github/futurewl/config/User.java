@@ -1,4 +1,4 @@
-package io.github.futurewl.base.config;
+package io.github.futurewl.security.config;
 
 public class User {
 

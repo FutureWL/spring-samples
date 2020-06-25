@@ -1,4 +1,4 @@
-package io.github.futurewl.base.controller;
+package io.github.futurewl.security.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
