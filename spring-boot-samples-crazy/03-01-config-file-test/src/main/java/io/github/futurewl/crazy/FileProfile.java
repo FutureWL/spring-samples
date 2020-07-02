@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.crazy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,30 +11,22 @@ import java.util.Scanner;
 
 @SpringBootApplication
 @RestController
-public class TestProfile {
+public class FileProfile {
 
     public static void main(String[] args) {
         // 读取控制台输入
         Scanner scan = new Scanner(System.in);
-        String profile = scan.nextLine();
-//        new SpringApplicationBuilder(
-//                TestProfile.class)
-//                .properties(
-//                        "spring.config.location=classpath:/test-profile.yml")
-//                .properties("spring.profiles.active=" + profile).run(args);
-        new SpringApplicationBuilder(
-                TestProfile.class)
-                .properties(
-                        "spring.config.location=classpath:/test-profile.yml")
-                .profiles(profile).run(args);
+        String profiles = scan.nextLine();
+        new SpringApplicationBuilder(FileProfile.class).profiles(profiles).run(args);
     }
 
     @Autowired
     private Environment env;
 
-    @GetMapping("/tp")
+    @GetMapping("/driver")
     public String getProp() {
         System.out.println(env.getProperty("jdbc.driver"));
         return "";
     }
+
 }

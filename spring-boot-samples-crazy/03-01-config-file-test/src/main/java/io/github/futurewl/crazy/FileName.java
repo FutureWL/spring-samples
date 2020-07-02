@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.crazy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,26 +7,21 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Scanner;
-
 @SpringBootApplication
 @RestController
-public class FileProfile {
+public class FileName {
 
     public static void main(String[] args) {
-        // 读取控制台输入
-        Scanner scan = new Scanner(System.in);
-        String profiles = scan.nextLine();
-        new SpringApplicationBuilder(FileProfile.class).profiles(profiles).run(args);
+        new SpringApplicationBuilder(FileName.class).properties(
+                "spring.config.name=abc").run(args);
     }
 
     @Autowired
     private Environment env;
 
-    @GetMapping("/driver")
+    @GetMapping("/fa")
     public String getProp() {
-        System.out.println(env.getProperty("jdbc.driver"));
+        System.out.println(env.getProperty("user.test.name"));
         return "";
     }
-
 }
