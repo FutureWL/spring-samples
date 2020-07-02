@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.web.sse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author weilai
  */
 @SpringBootApplication
-public class SpringBoot21ApplicationWebSse {
+public class AppWebSse {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot21ApplicationWebSse.class, args);
+        SpringApplication.run(AppWebSse.class, args);
     }
 }

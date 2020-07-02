@@ -1,4 +1,4 @@
-package io.github.futurewl.security.config;
+package io.github.futurewl.web.sse.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
