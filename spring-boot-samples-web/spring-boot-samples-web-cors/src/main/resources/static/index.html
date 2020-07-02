@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="https://libs.cdnjs.net/jquery/3.5.1/jquery.js"></script>
+<script type="application/javascript">
+$(document).ready(function () {
+    let result = $.ajax({url: "http://localhost:8998/hello", async: false})
+    console.log(result.responseText)
+})
+</script>
+</body>
+</html>
