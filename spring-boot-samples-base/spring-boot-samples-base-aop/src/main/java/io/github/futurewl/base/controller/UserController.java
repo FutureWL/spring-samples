@@ -1,4 +1,4 @@
-package io.github.futurewl.security.controller;
+package io.github.futurewl.base.controller;
 
 import io.github.futurewl.base.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
