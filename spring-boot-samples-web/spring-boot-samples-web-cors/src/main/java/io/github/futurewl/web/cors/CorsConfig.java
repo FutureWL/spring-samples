@@ -1,13 +1,13 @@
 package io.github.futurewl.web.cors;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * 功能描述：WebMVC 配置
+ * Spring 设置 跨域
  */
-@Configuration
+//@Configuration
 public class CorsConfig implements WebMvcConfigurer {
 
     @Override
@@ -21,9 +21,10 @@ public class CorsConfig implements WebMvcConfigurer {
                 // 服务器端支持的HTTP请求方法列表。"GET", "POST", "PUT", "DELETE", "HEAD"
                 .allowedMethods("*")
                 // 浏览器允许客户端访问的响应头列表。 在实际响应报头Access-Control-Expose-Headers中设置值。
-                .exposedHeaders("*")
+                // .exposedHeaders("*")
                 // 它确定浏览器是否应该包含与请求相关的任何cookie。
                 .allowCredentials(true)
+                // 预响应缓存持续时间的最大时间（以秒为单位）。 该值在Header的Access-Control-Max-Age中设置。
                 .maxAge(3600);
     }
 
