@@ -2,7 +2,7 @@ package io.github.futurewl.crazy.feign;
 
 import feign.Feign;
 import feign.gson.GsonDecoder;
-import io.github.futurewl.base.entity.Person;
+import io.github.futurewl.crazy.entity.Person;
 
 public class FeignMain {
 

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.futurewl</groupId>
-    <artifactId>spring-boot-samples</artifactId>
+    <artifactId>spring-samples</artifactId>
     <version>200624</version>
     <packaging>pom</packaging>
 
-    <name>spring-boot-samples</name>
+    <name>spring-samples</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -29,8 +29,9 @@
         <module>spring-boot-samples-security</module>
         <module>spring-boot-samples-base</module>
         <module>spring-boot-samples-demo</module>
-        <module>spring-boot-samples-crazy</module>
         <module>spring-boot-samples-spring-boot-admin</module>
+        <module>spring-cloud-samples</module>
+        <module>spring-framework-samples</module>
     </modules>
 
     <repositories>

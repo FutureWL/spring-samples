@@ -1,4 +1,4 @@
-package io.github.futurewl.base.entity;
+package io.github.futurewl.crazy.entity;
 
 public class Person {
 
