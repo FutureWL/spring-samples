@@ -8,16 +8,11 @@
         <version>200624</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>spring-boot-samples-base</artifactId>
     <packaging>pom</packaging>
-
+    <artifactId>spring-boot-samples-spring-boot-admin</artifactId>
     <modules>
-        <module>spring-boot-samples-base-actuator</module>
-        <module>spring-boot-samples-base-config-java</module>
-        <module>spring-boot-samples-base-config-xml</module>
-        <module>spring-boot-samples-base-aop</module>
-        <module>spring-boot-samples-base-bean-life-cycle</module>
+        <module>spring-boot-samples-spring-boot-admin-client</module>
+        <module>spring-boot-samples-spring-boot-admin-server</module>
     </modules>
 
 </project>

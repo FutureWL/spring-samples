@@ -30,6 +30,7 @@
         <module>spring-boot-samples-base</module>
         <module>spring-boot-samples-demo</module>
         <module>spring-boot-samples-crazy</module>
+        <module>spring-boot-samples-spring-boot-admin</module>
     </modules>
 
     <repositories>
