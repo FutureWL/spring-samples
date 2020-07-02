@@ -3,13 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-samples</artifactId>
+        <artifactId>spring-boot-samples</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>200624</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>spring-framework-samples</artifactId>
-
+    <packaging>pom</packaging>
+    <artifactId>spring-boot-samples-spring-boot-admin</artifactId>
+    <modules>
+        <module>spring-boot-samples-spring-boot-admin-client</module>
+        <module>spring-boot-samples-spring-boot-admin-server</module>
+    </modules>
 
 </project>

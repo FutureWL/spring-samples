@@ -16,20 +16,10 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.2.3.x.RELEASE.version>2.3.0.RELEASE</spring.boot.2.3.x.RELEASE.version>
     </properties>
 
     <modules>
-        <module>spring-boot-samples-quartz</module>
-        <module>spring-boot-samples-web</module>
-        <module>spring-boot-samples-webflux</module>
-        <module>spring-boot-samples-data</module>
-        <module>spring-boot-samples-mq</module>
-        <module>spring-boot-samples-cache</module>
-        <module>spring-boot-samples-security</module>
-        <module>spring-boot-samples-base</module>
-        <module>spring-boot-samples-demo</module>
-        <module>spring-boot-samples-spring-boot-admin</module>
+        <module>spring-boot-samples</module>
         <module>spring-cloud-samples</module>
         <module>spring-framework-samples</module>
     </modules>
@@ -55,43 +45,5 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring.boot.2.3.x.RELEASE.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring.boot.2.3.x.RELEASE.version}</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-        <plugins>
-            <!--            <plugin>-->
-            <!--                <groupId>org.springframework.boot</groupId>-->
-            <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-            <!--                <executions>-->
-            <!--                    <execution>-->
-            <!--                        <goals>-->
-            <!--                            <goal>repackage</goal>-->
-            <!--                        </goals>-->
-            <!--                    </execution>-->
-            <!--                </executions>-->
-            <!--            </plugin>-->
-        </plugins>
-    </build>
 
 </project>
