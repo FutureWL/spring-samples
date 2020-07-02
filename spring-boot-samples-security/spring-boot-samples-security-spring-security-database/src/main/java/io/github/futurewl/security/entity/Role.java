@@ -1,4 +1,4 @@
-package io.github.futurewl.base.entity;
+package io.github.futurewl.security.entity;
 
 import javax.persistence.*;
 import java.util.Set;

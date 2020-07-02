@@ -1,11 +1,11 @@
-package io.github.futurewl;
+package io.github.futurewl.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBoot21ApplicationSecuritySpringSecurity {
+public class AppSecuritySpringSecurity {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot21ApplicationSecuritySpringSecurity.class, args);
+        SpringApplication.run(AppSecuritySpringSecurity.class, args);
     }
 }

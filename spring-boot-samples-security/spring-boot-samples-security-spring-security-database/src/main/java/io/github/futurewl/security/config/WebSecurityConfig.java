@@ -1,6 +1,6 @@
 package io.github.futurewl.security.config;
 
-import io.github.futurewl.base.service.UserService;
+import io.github.futurewl.security.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package io.github.futurewl.base.entity;
+package io.github.futurewl.security.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

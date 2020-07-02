@@ -1,8 +1,8 @@
-package io.github.futurewl.base.service;
+package io.github.futurewl.security.service;
 
-import io.github.futurewl.base.entity.User;
-import io.github.futurewl.repository.RoleRepository;
-import io.github.futurewl.repository.UserRepository;
+import io.github.futurewl.security.entity.User;
+import io.github.futurewl.security.repository.RoleRepository;
+import io.github.futurewl.security.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

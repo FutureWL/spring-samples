@@ -1,6 +1,6 @@
-package io.github.futurewl.repository;
+package io.github.futurewl.security.repository;
 
-import io.github.futurewl.base.entity.Role;
+import io.github.futurewl.security.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;
