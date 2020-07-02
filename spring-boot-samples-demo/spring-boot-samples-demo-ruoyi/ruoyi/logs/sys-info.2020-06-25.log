@@ -1,0 +1,7 @@
+19:27:41.422 [Thread-87] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_MacBook-Pro.local1592911863262 paused.
+19:27:41.435 [Thread-87] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_MacBook-Pro.local1592911863262 shutting down.
+19:27:41.435 [Thread-87] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_MacBook-Pro.local1592911863262 paused.
+19:27:41.437 [Thread-87] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_MacBook-Pro.local1592911863262 shutdown complete.
+19:27:41.437 [Thread-87] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+19:27:41.443 [Thread-87] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+19:27:41.470 [Thread-87] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

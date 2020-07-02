@@ -1,0 +1,6 @@
+07:41:22.475 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+07:41:22.479 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+07:41:22.479 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+07:43:20.310 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+07:43:20.310 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+07:43:20.311 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====

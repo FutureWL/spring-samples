@@ -1,0 +1,2 @@
+19:27:41.437 [Thread-87] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+19:27:41.443 [Thread-87] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====

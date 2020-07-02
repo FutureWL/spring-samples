@@ -14,5 +14,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-boot-samples-demo-imooc</module>
+        <module>spring-boot-samples-demo-ruoyi</module>
+        <module>spring-boot-samples-demo-pigx</module>
+        <module>spring-boot-samples-demo-jeecg</module>
     </modules>
 </project>
