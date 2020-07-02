@@ -15,6 +15,7 @@
     <modules>
         <module>spring-boot-samples-imooc-demo-coding-96</module>
         <module>spring-boot-samples-imooc-demo-coding-117</module>
+        <module>spring-boot-samples-imooc-demo-coding-134</module>
         <module>spring-boot-samples-imooc-demo-coding-149</module>
     </modules>
 </project>
