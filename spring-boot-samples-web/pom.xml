@@ -12,27 +12,18 @@
     <artifactId>spring-boot-samples-web</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-samples-web-server-tomcat</module>
-        <module>spring-boot-samples-web-template-jsp</module>
-        <module>spring-boot-samples-web-template-freemarker</module>
-        <module>spring-boot-samples-web-template-thymeleaf</module>
-        <module>spring-boot-samples-web-server-jetty</module>
-        <module>spring-boot-samples-web-server-undertow</module>
+        <module>spring-boot-samples-web-server</module>
+        <module>spring-boot-samples-web-template</module>
+        <module>spring-boot-samples-web-json</module>
         <module>spring-boot-samples-web-websocket</module>
-        <module>spring-boot-samples-web-websocket-p2p</module>
         <module>spring-boot-samples-web-sse</module>
         <module>spring-boot-samples-web-controller-advice</module>
         <module>spring-boot-samples-web-cors</module>
         <module>spring-boot-samples-web-custom-error-page</module>
         <module>spring-boot-samples-web-file</module>
-        <module>spring-boot-samples-web-file-multipart</module>
-        <module>spring-boot-samples-web-json</module>
-        <module>spring-boot-samples-web-json-fastjson</module>
-        <module>spring-boot-samples-web-json-gson</module>
         <module>spring-boot-samples-web-static</module>
         <module>spring-boot-samples-web-test</module>
         <module>spring-boot-samples-web-swagger2</module>
-        <module>spring-boot-samples-webflux</module>
     </modules>
 
 </project>

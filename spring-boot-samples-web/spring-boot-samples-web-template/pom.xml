@@ -8,12 +8,13 @@
         <version>200624</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-samples-web-template</artifactId>
     <packaging>pom</packaging>
-    <artifactId>spring-boot-samples-web-json</artifactId>
     <modules>
-        <module>spring-boot-samples-web-json-gson</module>
-        <module>spring-boot-samples-web-json-fastjson</module>
-        <module>spring-boot-samples-web-json-jackson</module>
+        <module>spring-boot-samples-web-template-jsp</module>
+        <module>spring-boot-samples-web-template-freemarker</module>
+        <module>spring-boot-samples-web-template-thymeleaf</module>
     </modules>
 
 </project>
