@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-cloud-samples</artifactId>
+        <groupId>io.github.futurewl</groupId>
+        <version>190703</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>brixton</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>brixton-spring-boot</module>
+        <module>brixton-spring-cloud-eureka-server</module>
+        <module>brixton-spring-cloud-hello-service</module>
+        <module>brixton-spring-cloud-hello-service-api</module>
+        <module>brixton-spring-cloud-ribbon</module>
+        <module>brixton-spring-cloud-ribbon-hystrix</module>
+        <module>brixton-spring-cloud-hystrix-dashboard</module>
+        <module>brixton-spring-cloud-turbine</module>
+        <module>brixton-spring-cloud-turbine-amqp</module>
+        <module>brixton-spring-cloud-feign</module>
+        <module>brixton-spring-cloud-hello-service-hystrix</module>
+        <module>brixton-spring-cloud-zuul</module>
+        <module>brixton-spring-cloud-config</module>
+        <!--        <module>brixton-spring-cloud-bus</module>-->
+        <!--        <module>brixton-spring-cloud-stream</module>-->
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Brixton.SR7</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.3.7.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.github.futurewl</groupId>
+                <artifactId>brixton-spring-cloud-hello-service-api</artifactId>
+                <version>190703</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

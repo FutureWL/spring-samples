@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>finchley</artifactId>
+        <groupId>io.github.futurewl</groupId>
+        <version>190703</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>weather</artifactId>
+    <name>spring-cloud-finchley-samples-weather</name>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hello-world</module>
+        <module>hello-world-log</module>
+        <module>hello-world-rest</module>
+        <!--        <module>hello-world-docker</module>-->
+        <!-- micro -->
+        <module>micro-basic</module>
+        <module>micro-quartz</module>
+        <module>micro-redis</module>
+        <module>micro-report</module>
+        <!-- micro-eureka -->
+        <module>micro-eureka-server</module>
+        <module>micro-eureka-client</module>
+        <module>micro-eureka-client-feign</module>
+        <module>micro-eureka-client-ribbon</module>
+        <module>micro-eureka-client-zuul</module>
+        <module>micro-eureka-client-feign-hystrix</module>
+        <!-- micro-config-->
+        <!--        <module>micro-config-server</module>-->
+        <!--        <module>micro-config-server-bus</module>-->
+        <!--        <module>micro-config-client</module>-->
+        <!--        <module>micro-config-client-bus</module>-->
+        <!-- msa -->
+        <module>msa-weather-eureka-client-zuul</module>
+        <!-- msa-collection -->
+        <module>msa-weather-collection-server</module>
+        <module>msa-weather-collection-eureka</module>
+        <module>msa-weather-collection-eureka-feign</module>
+        <!-- msa-city-->
+        <module>msa-weather-city-server</module>
+        <module>msa-weather-city-eureka</module>
+        <!-- msa-data -->
+        <module>msa-weather-data-server</module>
+        <module>msa-weather-data-eureka</module>
+        <!-- msa-report -->
+        <module>msa-weather-report-server</module>
+        <module>msa-weather-report-eureka</module>
+        <module>msa-weather-report-eureka-feign</module>
+        <module>msa-weather-report-eureka-feign-gateway</module>
+        <module>msa-weather-report-eureka-feign-gateway-hystrix</module>
+    </modules>
+
+
+</project>

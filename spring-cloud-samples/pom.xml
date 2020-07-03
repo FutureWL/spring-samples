@@ -2,14 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>spring-samples</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>200624</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
-
     <artifactId>spring-cloud-samples</artifactId>
-
+    <packaging>pom</packaging>
+    <modules>
+        <!--        <module>angel</module>-->
+        <!--        <module>brixton</module>-->
+        <!--        <module>camden</module>-->
+        <!--        <module>dalston</module>-->
+        <!--        <module>edgware</module>-->
+        <module>finchley</module>
+        <!--        <module>greenwich</module>-->
+        <!--        <module>hoxton</module>-->
+    </modules>
 
 </project>
