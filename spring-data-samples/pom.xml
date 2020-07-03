@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-samples</artifactId>
+        <groupId>io.github.futurewl</groupId>
+        <version>200624</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-data-samples</artifactId>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-boot-samples-data-elasticsearch</module>
+        <module>spring-boot-samples-data-jpa</module>
+        <module>spring-boot-samples-data-jpa-rest</module>
+        <module>spring-boot-samples-data-jpa-multi-datasource</module>
+        <module>spring-boot-samples-data-jdbc</module>
+        <module>spring-boot-samples-data-jdbc-multi-datasource</module>
+        <module>spring-boot-samples-data-mongodb</module>
+        <module>spring-boot-samples-data-mybatis</module>
+        <module>spring-boot-samples-data-mybatis-plus</module>
+        <module>spring-boot-samples-data-mybatis-multi-datasource</module>
+        <module>spring-boot-samples-data-mybatis-pagehelper</module>
+        <module>spring-boot-samples-data-mybatis-multi-datasource-aop</module>
+    </modules>
+</project>
