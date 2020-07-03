@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <!--        <module>angel</module>-->
-        <!--        <module>brixton</module>-->
+        <module>brixton</module>
         <!--        <module>camden</module>-->
         <!--        <module>dalston</module>-->
         <!--        <module>edgware</module>-->
