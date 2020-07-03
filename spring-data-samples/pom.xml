@@ -10,20 +10,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-data-samples</artifactId>
-
     <packaging>pom</packaging>
+    <properties>
+        <spring.boot.version>2.3.1.RELEASE</spring.boot.version>
+    </properties>
     <modules>
-        <module>spring-boot-samples-data-elasticsearch</module>
-        <module>spring-boot-samples-data-jpa</module>
-        <module>spring-boot-samples-data-jpa-rest</module>
-        <module>spring-boot-samples-data-jpa-multi-datasource</module>
-        <module>spring-boot-samples-data-jdbc</module>
-        <module>spring-boot-samples-data-jdbc-multi-datasource</module>
-        <module>spring-boot-samples-data-mongodb</module>
-        <module>spring-boot-samples-data-mybatis</module>
-        <module>spring-boot-samples-data-mybatis-plus</module>
-        <module>spring-boot-samples-data-mybatis-multi-datasource</module>
-        <module>spring-boot-samples-data-mybatis-pagehelper</module>
-        <module>spring-boot-samples-data-mybatis-multi-datasource-aop</module>
+        <module>spring-data-samples-elasticsearch</module>
+        <module>spring-data-samples-jpa</module>
+        <module>spring-data-samples-jpa-rest</module>
+        <module>spring-data-samples-jpa-multi-datasource</module>
+        <module>spring-data-samples-jdbc</module>
+        <module>spring-data-samples-jdbc-multi-datasource</module>
+        <module>spring-data-samples-mongodb</module>
+        <module>spring-data-samples-mybatis</module>
+        <module>spring-data-samples-mybatis-plus</module>
+        <module>spring-data-samples-mybatis-multi-datasource</module>
+        <module>spring-data-samples-mybatis-pagehelper</module>
+        <module>spring-data-samples-mybatis-multi-datasource-aop</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

@@ -5,16 +5,17 @@
     <parent>
         <artifactId>spring-cloud-samples</artifactId>
         <groupId>io.github.futurewl</groupId>
-        <version>190703</version>
+        <version>200624</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>finchley</artifactId>
-    <name>spring-cloud-finchley-samples</name>
+    <name>spring-cloud-samples-finchley</name>
     <packaging>pom</packaging>
 
     <modules>
         <module>weather</module>
+        <module>crazy</module>
     </modules>
 
     <dependencyManagement>
