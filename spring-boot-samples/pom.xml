@@ -18,7 +18,6 @@
         <module>spring-boot-samples-quartz</module>
         <module>spring-boot-samples-web</module>
         <module>spring-boot-samples-webflux</module>
-        <module>spring-boot-samples-mq</module>
         <module>spring-boot-samples-cache</module>
         <module>spring-boot-samples-security</module>
         <module>spring-boot-samples-base</module>

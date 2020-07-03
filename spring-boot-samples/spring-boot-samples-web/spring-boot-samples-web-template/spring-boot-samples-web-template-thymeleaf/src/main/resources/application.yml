@@ -1,2 +1,7 @@
 server:
   port: 0
+spring:
+  thymeleaf:
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html

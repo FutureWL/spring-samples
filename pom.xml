@@ -20,6 +20,7 @@
 
     <modules>
         <module>spring-boot-samples</module>
+        <module>spring-amqp-samples</module>
         <module>spring-cloud-samples</module>
         <module>spring-framework-samples</module>
         <!--        <module>spring-samples-demo</module>-->
@@ -31,7 +32,6 @@
         <!--        <module>spring-hateoas-samples</module>-->
         <!--        <module>spring-rest-docs-samples</module>-->
         <!--        <module>spring-batch-samples</module>-->
-        <!--        <module>spring-amqp-samples</module>-->
         <!--        <module>spring-for-android-samples</module>-->
         <!--        <module>spring-credhub-samples</module>-->
         <!--        <module>spring-flo-samples</module>-->
