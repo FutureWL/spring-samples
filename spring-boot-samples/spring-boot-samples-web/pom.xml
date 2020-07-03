@@ -25,6 +25,7 @@
         <module>spring-boot-samples-web-test</module>
         <module>spring-boot-samples-web-swagger2</module>
         <module>spring-boot-samples-web-rest</module>
+        <module>spring-boot-samples-web-rest-feign</module>
     </modules>
 
     <dependencies>
