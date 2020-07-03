@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>spring-boot-samples-crazy</artifactId>
+        <artifactId>crazy</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>200624</version>
     </parent>
-    <artifactId>13-04-feign-client</artifactId>
-    <name>spring-boot-samples-crazy-13-04-feign-client</name>
+    <artifactId>feign-client</artifactId>
+    <name>spring-cloud-samples-finchley-crazy-feign-client</name>
 
     <dependencies>
         <dependency>

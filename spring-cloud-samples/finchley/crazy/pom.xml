@@ -13,5 +13,9 @@
     <name>spring-cloud-samples-finchley-crazy</name>
     <modules>
         <module>ek-server</module>
+        <module>ek-service-invoker</module>
+        <module>ek-service-provider</module>
+        <module>first-ribbon-client</module>
+        <module>feign-client</module>
     </modules>
 </project>

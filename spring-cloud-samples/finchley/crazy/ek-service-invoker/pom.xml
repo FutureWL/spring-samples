@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>13-03-ek-service-invoker</artifactId>
-    <name>spring-boot-samples-crazy-13-03-ek-service-invoker</name>
+    <artifactId>ek-service-invoker</artifactId>
+    <name>spring-cloud-samples-finchley-crazy-ek-service-invoker</name>
 
     <!-- 声明项目的父项目 -->
     <parent>
-        <artifactId>spring-boot-samples-crazy</artifactId>
+        <artifactId>crazy</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>200624</version>
     </parent>
