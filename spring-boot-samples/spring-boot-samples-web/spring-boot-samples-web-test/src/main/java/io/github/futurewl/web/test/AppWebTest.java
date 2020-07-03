@@ -10,16 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author weilai
  */
-@RestController
 @SpringBootApplication
 public class AppWebTest {
     public static void main(String[] args) {
         SpringApplication.run(AppWebTest.class, args);
     }
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "hello";
-    }
-
 }
