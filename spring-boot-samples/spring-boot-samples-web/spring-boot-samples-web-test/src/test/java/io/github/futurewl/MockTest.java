@@ -26,5 +26,5 @@ public class MockTest {
         BDDMockito.given(this.remoteService.call()).willReturn("angus");
         mainService.mainService();
     }
-    
+
 }

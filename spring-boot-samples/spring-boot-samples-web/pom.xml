@@ -24,6 +24,7 @@
         <module>spring-boot-samples-web-static</module>
         <module>spring-boot-samples-web-test</module>
         <module>spring-boot-samples-web-swagger2</module>
+        <module>spring-boot-samples-web-rest</module>
     </modules>
 
     <dependencies>
