@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-framework-samples</artifactId>
-
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-framework-samples-ioc</module>
+    </modules>
+    <properties>
+        <spring.framework.version>5.2.7.RELEASE</spring.framework.version>
+    </properties>
 </project>

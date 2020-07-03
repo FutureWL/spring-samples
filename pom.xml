@@ -22,28 +22,28 @@
         <module>spring-boot-samples</module>
         <module>spring-cloud-samples</module>
         <module>spring-framework-samples</module>
-        <module>spring-data-samples</module>
-        <module>spring-cloud-data-flow</module>
-        <module>spring-security-samples</module>
-        <module>spring-session-samples</module>
-        <module>spring-integration-samples</module>
-        <module>spring-hateoas-samples</module>
-        <module>spring-rest-docs-samples</module>
-        <module>spring-batch-samples</module>
-        <module>spring-amqp-samples</module>
-        <module>spring-for-android-samples</module>
-        <module>spring-credhub-samples</module>
-        <module>spring-flo-samples</module>
-        <module>spring-for-apache-kafka-samples</module>
-        <module>spring-ldap-samples</module>
-        <module>spring-mobile-samples</module>
-        <module>spring-roo-samples</module>
-        <module>spring-shell-samples</module>
-        <module>spring-statemachine-samples</module>
-        <module>spring-vault-samples</module>
-        <module>spring-web-flow-samples</module>
-        <module>spring-web-services</module>
-        <module>spring-samples-demo</module>
+        <!--        <module>spring-samples-demo</module>-->
+        <!--        <module>spring-data-samples</module>-->
+        <!--        <module>spring-cloud-data-flow</module>-->
+        <!--        <module>spring-security-samples</module>-->
+        <!--        <module>spring-session-samples</module>-->
+        <!--        <module>spring-integration-samples</module>-->
+        <!--        <module>spring-hateoas-samples</module>-->
+        <!--        <module>spring-rest-docs-samples</module>-->
+        <!--        <module>spring-batch-samples</module>-->
+        <!--        <module>spring-amqp-samples</module>-->
+        <!--        <module>spring-for-android-samples</module>-->
+        <!--        <module>spring-credhub-samples</module>-->
+        <!--        <module>spring-flo-samples</module>-->
+        <!--        <module>spring-for-apache-kafka-samples</module>-->
+        <!--        <module>spring-ldap-samples</module>-->
+        <!--        <module>spring-mobile-samples</module>-->
+        <!--        <module>spring-roo-samples</module>-->
+        <!--        <module>spring-shell-samples</module>-->
+        <!--        <module>spring-statemachine-samples</module>-->
+        <!--        <module>spring-vault-samples</module>-->
+        <!--        <module>spring-web-flow-samples</module>-->
+        <!--        <module>spring-web-services</module>-->
     </modules>
 
     <repositories>

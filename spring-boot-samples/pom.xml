@@ -11,11 +11,9 @@
 
     <artifactId>spring-boot-samples</artifactId>
     <packaging>pom</packaging>
-
     <properties>
-        <spring.boot.2.3.x.RELEASE.version>2.3.0.RELEASE</spring.boot.2.3.x.RELEASE.version>
+        <spring.boot.version>2.3.1.RELEASE</spring.boot.version>
     </properties>
-
     <modules>
         <module>spring-boot-samples-quartz</module>
         <module>spring-boot-samples-web</module>
@@ -32,7 +30,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring.boot.2.3.x.RELEASE.version}</version>
+                <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -45,22 +43,9 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring.boot.2.3.x.RELEASE.version}</version>
+                    <version>${spring.boot.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
-        <plugins>
-            <!--            <plugin>-->
-            <!--                <groupId>org.springframework.boot</groupId>-->
-            <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-            <!--                <executions>-->
-            <!--                    <execution>-->
-            <!--                        <goals>-->
-            <!--                            <goal>repackage</goal>-->
-            <!--                        </goals>-->
-            <!--                    </execution>-->
-            <!--                </executions>-->
-            <!--            </plugin>-->
-        </plugins>
     </build>
 </project>
