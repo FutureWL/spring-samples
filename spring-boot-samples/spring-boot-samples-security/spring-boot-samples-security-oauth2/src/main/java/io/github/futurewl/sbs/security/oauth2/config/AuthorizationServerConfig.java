@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.sbs.security.oauth2.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -19,10 +19,13 @@ import org.springframework.security.oauth2.provider.token.store.redis.RedisToken
  */
 @Configuration
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
+
     @Autowired
     AuthenticationManager authenticationManager;
+
     @Autowired
     RedisConnectionFactory redisConnectionFactory;
+
     @Autowired
     UserDetailsService userDetailsService;
 

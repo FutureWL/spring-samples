@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.sbs.security.oauth2.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

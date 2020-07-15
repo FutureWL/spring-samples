@@ -1,4 +1,4 @@
-package io.github.futurewl;
+package io.github.futurewl.sbs.security.oauth2.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
