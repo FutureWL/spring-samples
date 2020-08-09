@@ -13,10 +13,10 @@
 
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-samples-demo-imooc</module>
-        <module>spring-boot-samples-demo-ruoyi</module>
-        <module>spring-boot-samples-demo-pigx</module>
-        <module>spring-boot-samples-demo-jeecg</module>
-        <module>spring-boot-samples-demo-crazy</module>
+<!--        <module>spring-boot-samples-demo-imooc</module>-->
+<!--        <module>spring-boot-samples-demo-ruoyi</module>-->
+<!--        <module>spring-boot-samples-demo-pigx</module>-->
+<!--        <module>spring-boot-samples-demo-jeecg</module>-->
+<!--        <module>spring-boot-samples-demo-crazy</module>-->
     </modules>
 </project>
