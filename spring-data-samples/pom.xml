@@ -12,7 +12,7 @@
     <artifactId>spring-data-samples</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <spring.boot.version>2.3.1.RELEASE</spring.boot.version>
+        <spring.boot.version>2.3.4.RELEASE</spring.boot.version>
     </properties>
     <modules>
         <module>spring-data-samples-elasticsearch</module>
