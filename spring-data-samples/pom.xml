@@ -27,6 +27,7 @@
         <module>spring-data-samples-mybatis-multi-datasource</module>
         <module>spring-data-samples-mybatis-pagehelper</module>
         <module>spring-data-samples-mybatis-multi-datasource-aop</module>
+        <module>spring-data-samples-redis</module>
     </modules>
     <dependencyManagement>
         <dependencies>
