@@ -15,19 +15,19 @@
         <spring.boot.version>2.3.4.RELEASE</spring.boot.version>
     </properties>
     <modules>
-        <module>spring-data-samples-elasticsearch</module>
-        <module>spring-data-samples-jpa</module>
-        <module>spring-data-samples-jpa-rest</module>
-        <module>spring-data-samples-jpa-multi-datasource</module>
-        <module>spring-data-samples-jdbc</module>
-        <module>spring-data-samples-jdbc-multi-datasource</module>
-        <module>spring-data-samples-mongodb</module>
+        <!--        <module>spring-data-samples-elasticsearch</module>-->
+        <!--        <module>spring-data-samples-jpa</module>-->
+        <!--        <module>spring-data-samples-jpa-rest</module>-->
+        <!--        <module>spring-data-samples-jpa-multi-datasource</module>-->
+        <!--        <module>spring-data-samples-jdbc</module>-->
+        <!--        <module>spring-data-samples-jdbc-multi-datasource</module>-->
+        <!--        <module>spring-data-samples-mongodb</module>-->
         <module>spring-data-samples-mybatis</module>
-        <module>spring-data-samples-mybatis-plus</module>
-        <module>spring-data-samples-mybatis-multi-datasource</module>
-        <module>spring-data-samples-mybatis-pagehelper</module>
-        <module>spring-data-samples-mybatis-multi-datasource-aop</module>
-        <module>spring-data-samples-redis</module>
+        <!--        <module>spring-data-samples-mybatis-plus</module>-->
+        <!--        <module>spring-data-samples-mybatis-multi-datasource</module>-->
+        <!--        <module>spring-data-samples-mybatis-pagehelper</module>-->
+        <!--        <module>spring-data-samples-mybatis-multi-datasource-aop</module>-->
+        <!--        <module>spring-data-samples-redis</module>-->
     </modules>
     <dependencyManagement>
         <dependencies>

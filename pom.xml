@@ -19,12 +19,12 @@
     </properties>
 
     <modules>
-        <module>spring-boot-samples</module>
-        <module>spring-amqp-samples</module>
-        <module>spring-cloud-samples</module>
-        <module>spring-framework-samples</module>
+        <!--        <module>spring-boot-samples</module>-->
+        <!--        <module>spring-amqp-samples</module>-->
+        <!--        <module>spring-cloud-samples</module>-->
+        <!--        <module>spring-framework-samples</module>-->
         <module>spring-data-samples</module>
-        <module>spring-samples-demo</module>
+        <!--        <module>spring-samples-demo</module>-->
         <!--        <module>spring-cloud-data-flow</module>-->
         <!--        <module>spring-security-samples</module>-->
         <!--        <module>spring-session-samples</module>-->
